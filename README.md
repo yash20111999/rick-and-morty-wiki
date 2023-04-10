@@ -1,9 +1,9 @@
 # About Project 
 
-* React JS based website that displays information on Rick and Morty characters, episodes, and locations using open source APIs.
-* Implemented API calls with Axios, including filters and search functionality with debounce.
-* Developed reusable components with Styled Components, using an atomic code architecture approach.
-* Deployed website through AWS EC2 machine, demonstrating proficiency with deployment and server management. [Live Link](http://43.204.220.14:3000/) 
+## * React JS based website that displays information on Rick and Morty characters, episodes, and locations using open source APIs.
+## * Implemented API calls with Axios, including filters and search functionality with debounce.
+## * Developed reusable components with Styled Components, using an atomic code architecture approach.
+## * Deployed website through AWS EC2 machine, demonstrating proficiency with deployment and server management. [Live Link](http://43.204.220.14:3000/) 
 
 ## To run the project on Local Port
 
@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### This will successfully deploy your project on AWS server by using EC2 machine.
 
-## Now you can copy the public ip address and add 3000 in the end to check the deployement working successfully.
+### Now you can copy the public ip address and add 3000 in the end to check the deployement working successfully.
 
 # <p style="text-align: center;"> THANK YOU FOR YOUR VISIT</p>
 
