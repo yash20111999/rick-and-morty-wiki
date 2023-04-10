@@ -1,67 +1,43 @@
 # About Project 
 
-### React JS based website that displays information on Rick and Morty characters, episodes, and locations using open source APIs.
-### 
+* React JS based website that displays information on Rick and Morty characters, episodes, and locations using open source APIs.
+* Implemented API calls with Axios, including filters and search functionality with debounce.
+* Developed reusable components with Styled Components, using an atomic code architecture approach.
+* Deployed website through AWS EC2 machine, demonstrating proficiency with deployment and server management. [Live Link](http://43.204.220.14:3000/) 
 
 ## To run the project on Local Port
 
-In the project directory, you can run:
+In the project directory, run the following commands
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## To run the project on EC2 machine by AWS
 
-
+### Create a account on AWS console
+### Go to EC2 though side menu
+### Click on Launch instance 
+### Select Machine type (I choose Amazon Linux Free Tier)
+### Configure Instance Type, Network Setting And Storage.
+### Select the configured instance Click on Connect.
+### Install latest node by following the [DOC](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
+### Clone git repository `git clone https://github.com/yash20111999/rick-and-morty-wiki.git`
+### In the project repository run the following :
+### `npm install`
+### `npm install serve`
 ### `npm run build`
+### `serve build 3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### This will successfully deploy your project on AWS server by using EC2 machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Now you can copy the public ip address and add 3000 in the end to check the deployement working successfully.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#THANK YOU FOR YOUR VISIT
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
