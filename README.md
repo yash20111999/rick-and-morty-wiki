@@ -35,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Now you can copy the public ip address and add 3000 in the end to check the deployement working successfully.
 
-#THANK YOU FOR YOUR VISIT
+<p style="text-align: center;">THANK YOU FOR YOUR VISIT</p>
 
 
 
