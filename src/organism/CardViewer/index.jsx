@@ -11,7 +11,7 @@ const Container = styled.div`
 const CardViewer = ({second}) => {
 
   const results = useContext(DataContext);
-
+  
   return (
     <Container>
       {results && results.map((card) => {

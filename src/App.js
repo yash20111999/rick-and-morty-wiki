@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/episodes/:id" element={<BigCard />} />
 
           <Route path="/location" element={<Locations />} />
-          {/* <Route path="/location/:id" element={<CardDetails />} /> */}
+          <Route path="/location/:id" element={<BigCard />} />
         </Routes>
       </Container>
     </Router>

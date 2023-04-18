@@ -24,14 +24,12 @@ const Locations = () => {
   }, [id]);
 
   useEffect(() => {
-    const fetchTotalEpisode = async () => {
+    const fetchTotalLocation = async () => {
       const response = await axios.get(`https://rickandmortyapi.com/api/location/`);
       setTotal(response?.data?.info?.count);
     }
-    fetchTotalEpisode();
+    fetchTotalLocation();
   })
-
-  console.log(result,data,total,  'inepi')
 
   
   return (
