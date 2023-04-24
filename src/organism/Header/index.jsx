@@ -1,14 +1,16 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import styled from 'styled-components';
+import { SideBar } from '../../atoms';
 
-const Navbar = styled.nav`
+const Navbar = styled.div`
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-`;
+  position: relative;
+`
 
 const NavMenu = styled.ul`
   display: flex;
@@ -27,11 +29,22 @@ const NavLink = styled.a`
   }
 `;
 
-const Header =()=> {
+const Header = () => {
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  
+  
   return (
     <Navbar>
       <h1>Rick And Morty Wiki</h1>
-      <NavMenu>
+      {screenWidth>700?<NavMenu >
         <NavItem>
           <NavLink href="/">Character</NavLink>
         </NavItem>
@@ -41,7 +54,7 @@ const Header =()=> {
         <NavItem>
           <NavLink href="/location">Locations</NavLink>
         </NavItem>
-      </NavMenu>
+      </NavMenu>:<SideBar/>}
     </Navbar>
   );
 }
