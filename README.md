@@ -3,7 +3,9 @@
 ### * React JS based website that displays information on Rick and Morty characters, episodes, and locations using open source APIs.
 ### * Implemented API calls with Axios, including filters and search functionality with debounce.
 ### * Developed reusable components with Styled Components, using an atomic code architecture approach.
-### * Deployed website through AWS EC2 machine, demonstrating proficiency with deployment and server management. [Live Link](http://43.204.220.14:3000/) 
+### * Deployed website through AWS EC2 machine, demonstrating proficiency with deployment and server management. [Live Link](http://43.204.220.14:3000/)
+
+![Preview](Preview ArwinAitest.png "Preview")
 
 ## To run the project on Local Port
 
